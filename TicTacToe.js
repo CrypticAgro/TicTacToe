@@ -93,7 +93,7 @@ const gameFlow = (() => {
             }
         }
         else if(counter == 9){
-            console.log("draw")
+            document.getElementById("game-winner").innerText = "Draw"
             GameBoard.removeListeners();
         }
     }
